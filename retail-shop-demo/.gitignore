@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+node_modules/
+build/
+dist/
+coverage/
+*.pem
+*.key
+*.crt
+*.log
+.DS_Store
+.idea/
+.vscode/
+server/static/users/*
+!server/static/users/.gitkeep
