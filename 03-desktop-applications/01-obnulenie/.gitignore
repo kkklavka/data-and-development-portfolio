@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated reports / local Excel exports
+готово_*.xlsx
+output/
+reports/
+
+# Local operational data (do not publish)
+*_private.xlsx
+*_real.xlsx
